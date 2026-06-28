@@ -1,0 +1,141 @@
+{
+ "autoname": "BA-UC-.#####",
+ "creation": "2026-06-28 00:00:00.000000",
+ "custom": 0,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project",
+  "use_case_name",
+  "primary_actor",
+  "related_requirement",
+  "section_break_20",
+  "description",
+  "preconditions",
+  "section_break_21",
+  "main_flow",
+  "section_break_22",
+  "alternate_flows",
+  "postconditions"
+ ],
+ "fields": [
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project",
+   "options": "Project",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "use_case_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Use Case Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "primary_actor",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Primary Actor"
+  },
+  {
+   "fieldname": "related_requirement",
+   "fieldtype": "Link",
+   "label": "Related Requirement",
+   "options": "BA Requirement"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "preconditions",
+   "fieldtype": "Small Text",
+   "label": "Preconditions"
+  },
+  {
+   "fieldname": "section_break_21",
+   "fieldtype": "Section Break",
+   "label": "Main Flow"
+  },
+  {
+   "fieldname": "main_flow",
+   "fieldtype": "Table",
+   "label": "Main Flow",
+   "options": "BA Use Case Step"
+  },
+  {
+   "fieldname": "section_break_22",
+   "fieldtype": "Section Break",
+   "label": "Alternate Flows & Postconditions"
+  },
+  {
+   "fieldname": "alternate_flows",
+   "fieldtype": "Text Editor",
+   "label": "Alternate / Exception Flows"
+  },
+  {
+   "fieldname": "postconditions",
+   "fieldtype": "Small Text",
+   "label": "Postconditions"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "istable": 0,
+ "links": [],
+ "modified": "2026-06-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "BA Toolkit",
+ "name": "BA Use Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 0,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Business Analyst",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Business Analyst Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

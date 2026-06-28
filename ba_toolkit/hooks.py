@@ -5,6 +5,21 @@ app_description = "Business analysis documentation workbench structured around t
 app_email = "baset.hamzah@gmail.com"
 app_license = "mit"
 
+
+# Installation
+# ------------
+
+after_install = "ba_toolkit.install.after_install"
+
+# Fixtures
+# --------
+# Roles are created in after_install. If you later modify role permissions
+# via the UI and want them version-controlled, export them as fixtures:
+#
+# fixtures = [
+#     {"dt": "Role", "filters": [["role_name", "in", ["Business Analyst", "Business Analyst Manager"]]]},
+# ]
+
 # Apps
 # ------------------
 

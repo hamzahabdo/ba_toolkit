@@ -1,0 +1,170 @@
+{
+ "autoname": "BA-STR-.YYYY.-.#####",
+ "creation": "2026-06-28 00:00:00.000000",
+ "custom": 0,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project",
+  "business_need",
+  "tab_break_6",
+  "current_state_description",
+  "capability_gaps",
+  "tab_break_7",
+  "future_state_description",
+  "new_capabilities_required",
+  "section_break_17",
+  "scope_statement",
+  "constraints",
+  "column_break_7",
+  "assumptions",
+  "solution_scope",
+  "tab_break_8",
+  "risks",
+  "change_strategy"
+ ],
+ "fields": [
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project",
+   "options": "Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "business_need",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Business Need",
+   "options": "BA Business Need"
+  },
+  {
+   "fieldname": "tab_break_6",
+   "fieldtype": "Tab Break",
+   "label": "Current State"
+  },
+  {
+   "fieldname": "current_state_description",
+   "fieldtype": "Text Editor",
+   "label": "Current State Description"
+  },
+  {
+   "fieldname": "capability_gaps",
+   "fieldtype": "Table",
+   "label": "Capability Gaps",
+   "options": "BA Capability Gap"
+  },
+  {
+   "fieldname": "tab_break_7",
+   "fieldtype": "Tab Break",
+   "label": "Future State"
+  },
+  {
+   "fieldname": "future_state_description",
+   "fieldtype": "Text Editor",
+   "label": "Future State Description"
+  },
+  {
+   "fieldname": "new_capabilities_required",
+   "fieldtype": "Small Text",
+   "label": "New Capabilities Required"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break",
+   "label": "Scope"
+  },
+  {
+   "fieldname": "scope_statement",
+   "fieldtype": "Text Editor",
+   "label": "Scope Statement"
+  },
+  {
+   "fieldname": "constraints",
+   "fieldtype": "Small Text",
+   "label": "Constraints"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "assumptions",
+   "fieldtype": "Small Text",
+   "label": "Assumptions"
+  },
+  {
+   "fieldname": "solution_scope",
+   "fieldtype": "Text Editor",
+   "label": "Solution Scope"
+  },
+  {
+   "fieldname": "tab_break_8",
+   "fieldtype": "Tab Break",
+   "label": "Risks & Change Strategy"
+  },
+  {
+   "fieldname": "risks",
+   "fieldtype": "Table",
+   "label": "Risks",
+   "options": "BA Risk"
+  },
+  {
+   "description": "Recommended approach for transitioning from current to future state.",
+   "fieldname": "change_strategy",
+   "fieldtype": "Text Editor",
+   "label": "Change Strategy"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "istable": 0,
+ "links": [],
+ "modified": "2026-06-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "BA Toolkit",
+ "name": "BA Strategy Analysis",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 0,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Business Analyst",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Business Analyst Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

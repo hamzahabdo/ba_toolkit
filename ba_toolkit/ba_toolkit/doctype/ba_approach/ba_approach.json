@@ -1,0 +1,152 @@
+{
+ "autoname": "BA-APR-.#####",
+ "creation": "2026-06-28 00:00:00.000000",
+ "custom": 0,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project",
+  "ba_approach_type",
+  "status",
+  "tab_break_1",
+  "planning_notes",
+  "tab_break_2",
+  "stakeholder_engagement_approach",
+  "tab_break_3",
+  "governance_approach",
+  "tab_break_4",
+  "information_management_approach",
+  "tab_break_5",
+  "performance_improvement_notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project",
+   "options": "Project",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "ba_approach_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "BA Approach Type",
+   "options": "Predictive / Plan-Driven\nAdaptive / Agile\nHybrid"
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Draft\nActive\nCompleted"
+  },
+  {
+   "fieldname": "tab_break_1",
+   "fieldtype": "Tab Break",
+   "label": "Planning"
+  },
+  {
+   "description": "How BA work will be planned: timing, deliverables, techniques to be used.",
+   "fieldname": "planning_notes",
+   "fieldtype": "Text Editor",
+   "label": "Planning Approach"
+  },
+  {
+   "fieldname": "tab_break_2",
+   "fieldtype": "Tab Break",
+   "label": "Stakeholder Engagement"
+  },
+  {
+   "fieldname": "stakeholder_engagement_approach",
+   "fieldtype": "Text Editor",
+   "label": "Stakeholder Engagement Approach"
+  },
+  {
+   "fieldname": "tab_break_3",
+   "fieldtype": "Tab Break",
+   "label": "Governance"
+  },
+  {
+   "description": "Decision-making process, change control process, approval authority.",
+   "fieldname": "governance_approach",
+   "fieldtype": "Text Editor",
+   "label": "Governance Approach"
+  },
+  {
+   "fieldname": "tab_break_4",
+   "fieldtype": "Tab Break",
+   "label": "Information Management"
+  },
+  {
+   "description": "How requirements and BA artifacts are structured, stored, and traced.",
+   "fieldname": "information_management_approach",
+   "fieldtype": "Text Editor",
+   "label": "Information Management Approach"
+  },
+  {
+   "fieldname": "tab_break_5",
+   "fieldtype": "Tab Break",
+   "label": "Performance Improvement"
+  },
+  {
+   "description": "Metrics, lessons learned, retrospective notes.",
+   "fieldname": "performance_improvement_notes",
+   "fieldtype": "Text Editor",
+   "label": "Performance Improvement Notes"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "istable": 0,
+ "links": [],
+ "modified": "2026-06-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "BA Toolkit",
+ "name": "BA Approach",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 0,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Business Analyst",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Business Analyst Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

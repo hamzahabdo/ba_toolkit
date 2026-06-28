@@ -1,0 +1,50 @@
+{
+ "creation": "2026-06-28 00:00:00.000000",
+ "custom": 0,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "metric_name",
+  "target_value",
+  "actual_value",
+  "variance_notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "metric_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Metric",
+   "reqd": 1
+  },
+  {
+   "fieldname": "target_value",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Target"
+  },
+  {
+   "fieldname": "actual_value",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Actual"
+  },
+  {
+   "fieldname": "variance_notes",
+   "fieldtype": "Small Text",
+   "label": "Variance Notes"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-06-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "BA Toolkit",
+ "name": "BA Performance Measure",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

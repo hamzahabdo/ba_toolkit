@@ -1,0 +1,177 @@
+{
+ "autoname": "BA-STK-.#####",
+ "creation": "2026-06-28 00:00:00.000000",
+ "custom": 0,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project",
+  "stakeholder_name",
+  "column_break_1",
+  "role_title",
+  "organization",
+  "section_break_1",
+  "stakeholder_category",
+  "influence_level",
+  "column_break_2",
+  "interest_level",
+  "attitude",
+  "section_break_2",
+  "communication_preference",
+  "contact_link",
+  "section_break_3",
+  "engagement_approach",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Project",
+   "options": "Project",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "stakeholder_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Stakeholder Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "role_title",
+   "fieldtype": "Data",
+   "label": "Role / Title"
+  },
+  {
+   "fieldname": "organization",
+   "fieldtype": "Data",
+   "label": "Organization"
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break",
+   "label": "Engagement Profile"
+  },
+  {
+   "fieldname": "stakeholder_category",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Category",
+   "options": "Sponsor\nBusiness Owner\nEnd User\nSubject Matter Expert\nCustomer\nRegulator\nProject Team\nOther"
+  },
+  {
+   "fieldname": "influence_level",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Influence",
+   "options": "High\nMedium\nLow"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "interest_level",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Interest",
+   "options": "High\nMedium\nLow"
+  },
+  {
+   "fieldname": "attitude",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Attitude",
+   "options": "Champion\nSupporter\nNeutral\nCritic\nBlocker"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break",
+   "label": "Communication"
+  },
+  {
+   "fieldname": "communication_preference",
+   "fieldtype": "Select",
+   "label": "Preferred Channel",
+   "options": "Email\nMeetings\nWorkshops\nWritten Reports\nPhone / Call"
+  },
+  {
+   "fieldname": "contact_link",
+   "fieldtype": "Link",
+   "label": "Linked Contact",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "engagement_approach",
+   "fieldtype": "Small Text",
+   "label": "Engagement Approach"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text Editor",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "istable": 0,
+ "links": [],
+ "modified": "2026-06-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "BA Toolkit",
+ "name": "BA Stakeholder",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 0,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Business Analyst",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Business Analyst Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

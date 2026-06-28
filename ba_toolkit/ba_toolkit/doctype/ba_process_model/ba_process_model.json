@@ -1,0 +1,128 @@
+{
+ "autoname": "BA-PM-.#####",
+ "creation": "2026-06-28 00:00:00.000000",
+ "custom": 0,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project",
+  "process_name",
+  "related_requirement",
+  "section_break_26",
+  "as_is_description",
+  "section_break_27",
+  "to_be_description",
+  "section_break_28",
+  "diagram",
+  "swimlane_notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project",
+   "options": "Project",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "process_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Process Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "related_requirement",
+   "fieldtype": "Link",
+   "label": "Related Requirement",
+   "options": "BA Requirement"
+  },
+  {
+   "fieldname": "section_break_26",
+   "fieldtype": "Section Break",
+   "label": "As-Is"
+  },
+  {
+   "fieldname": "as_is_description",
+   "fieldtype": "Text Editor",
+   "label": "As-Is Description"
+  },
+  {
+   "fieldname": "section_break_27",
+   "fieldtype": "Section Break",
+   "label": "To-Be"
+  },
+  {
+   "fieldname": "to_be_description",
+   "fieldtype": "Text Editor",
+   "label": "To-Be Description"
+  },
+  {
+   "fieldname": "section_break_28",
+   "fieldtype": "Section Break",
+   "label": "Diagram"
+  },
+  {
+   "fieldname": "diagram",
+   "fieldtype": "Attach",
+   "label": "Process Diagram (BPMN / Flowchart)"
+  },
+  {
+   "fieldname": "swimlane_notes",
+   "fieldtype": "Small Text",
+   "label": "Swimlane / RACI Notes"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "is_submittable": 0,
+ "istable": 0,
+ "links": [],
+ "modified": "2026-06-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "BA Toolkit",
+ "name": "BA Process Model",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 0,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Business Analyst",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Business Analyst Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

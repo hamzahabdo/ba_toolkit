@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Business Analysis\"}}]",
+ "content": "[{\"id\":\"Vp4BZA-fvs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Ba Document\",\"col\":3}},{\"id\":\"z7LGBcJb7J\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"exknMjrvyG\",\"type\":\"card\",\"data\":{\"card_name\":\"Planning & Monitoring\",\"col\":4}},{\"id\":\"mRVovwAXCq\",\"type\":\"card\",\"data\":{\"card_name\":\"Elicitation & Collaboration\",\"col\":4}},{\"id\":\"oRlHQYcUVX\",\"type\":\"card\",\"data\":{\"card_name\":\"Requirements Life Cycle Management\",\"col\":4}},{\"id\":\"u0M-530zZl\",\"type\":\"card\",\"data\":{\"card_name\":\"Strategy Analysis\",\"col\":4}},{\"id\":\"QqdHuHFWGv\",\"type\":\"card\",\"data\":{\"card_name\":\"Requirements Analysis & Design Definition\",\"col\":4}},{\"id\":\"NdUP4mxsGx\",\"type\":\"card\",\"data\":{\"card_name\":\"Solution Evaluation\",\"col\":4}}]",
  "creation": "2026-06-28 14:08:07.386889",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,8 +12,193 @@
  "indicator_color": "green",
  "is_hidden": 0,
  "label": "Business Analysis",
- "links": [],
- "modified": "2026-06-28 14:08:25.119814",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Planning & Monitoring",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Approach",
+   "link_count": 0,
+   "link_to": "BA Approach",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Stakeholder",
+   "link_count": 0,
+   "link_to": "BA Stakeholder",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Elicitation & Collaboration",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Elicitation Activity",
+   "link_count": 0,
+   "link_to": "BA Elicitation Activity",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Requirements Life Cycle Management",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Requirement",
+   "link_count": 0,
+   "link_to": "BA Requirement",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Requirement Change Request",
+   "link_count": 0,
+   "link_to": "BA Requirement Change Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Strategy Analysis",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Business Need",
+   "link_count": 0,
+   "link_to": "BA Business Need",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Strategy Analysis",
+   "link_count": 0,
+   "link_to": "BA Strategy Analysis",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Requirements Analysis & Design Definition",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Business Rule",
+   "link_count": 0,
+   "link_to": "BA Business Rule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Use Case",
+   "link_count": 0,
+   "link_to": "BA Use Case",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "User Story",
+   "link_count": 0,
+   "link_to": "BA User Story",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Process Model",
+   "link_count": 0,
+   "link_to": "BA Process Model",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Glossary Term",
+   "link_count": 0,
+   "link_to": "BA Glossary Term",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Solution Evaluation",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Solution Evaluation",
+   "link_count": 0,
+   "link_to": "BA Solution Evaluation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-06-28 14:27:43.186640",
  "modified_by": "Administrator",
  "module": "Ba Toolkit",
  "name": "Business Analysis",
@@ -24,6 +209,15 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 44.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Document",
+   "link_to": "BA Document",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
  "title": "Business Analysis"
 }

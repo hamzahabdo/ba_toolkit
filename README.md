@@ -1,6 +1,6 @@
 # BA Toolkit
 
-A Frappe/ERPNext app for business analysts to document BA work, structured around the **BABOK v3 knowledge areas**. Every artifact links back to a core ERPNext **Project**, so BA documentation lives alongside the engagements it supports (e.g. Oasis Residence, TDCO).
+A Frappe/ERPNext app for business analysts to document BA work, structured around the **BABOK v3 knowledge areas**. Every artifact links back to a core ERPNext **Project**, so BA documentation lives alongside the engagements it supports.
 
 ## What's inside
 

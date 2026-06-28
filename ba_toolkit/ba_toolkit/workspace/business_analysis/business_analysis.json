@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"Vp4BZA-fvs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Ba Document\",\"col\":3}},{\"id\":\"z7LGBcJb7J\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"exknMjrvyG\",\"type\":\"card\",\"data\":{\"card_name\":\"Planning & Monitoring\",\"col\":4}},{\"id\":\"mRVovwAXCq\",\"type\":\"card\",\"data\":{\"card_name\":\"Elicitation & Collaboration\",\"col\":4}},{\"id\":\"oRlHQYcUVX\",\"type\":\"card\",\"data\":{\"card_name\":\"Requirements Life Cycle Management\",\"col\":4}},{\"id\":\"u0M-530zZl\",\"type\":\"card\",\"data\":{\"card_name\":\"Strategy Analysis\",\"col\":4}},{\"id\":\"QqdHuHFWGv\",\"type\":\"card\",\"data\":{\"card_name\":\"Requirements Analysis & Design Definition\",\"col\":4}},{\"id\":\"NdUP4mxsGx\",\"type\":\"card\",\"data\":{\"card_name\":\"Solution Evaluation\",\"col\":4}}]",
+ "content": "[{\"id\":\"Vp4BZA-fvs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Document\",\"col\":3}},{\"id\":\"z7LGBcJb7J\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"exknMjrvyG\",\"type\":\"card\",\"data\":{\"card_name\":\"Planning & Monitoring\",\"col\":4}},{\"id\":\"mRVovwAXCq\",\"type\":\"card\",\"data\":{\"card_name\":\"Elicitation & Collaboration\",\"col\":4}},{\"id\":\"oRlHQYcUVX\",\"type\":\"card\",\"data\":{\"card_name\":\"Requirements Life Cycle Management\",\"col\":4}},{\"id\":\"u0M-530zZl\",\"type\":\"card\",\"data\":{\"card_name\":\"Strategy Analysis\",\"col\":4}},{\"id\":\"QqdHuHFWGv\",\"type\":\"card\",\"data\":{\"card_name\":\"Requirements Analysis & Design Definition\",\"col\":4}},{\"id\":\"NdUP4mxsGx\",\"type\":\"card\",\"data\":{\"card_name\":\"Solution Evaluation\",\"col\":4}}]",
  "creation": "2026-06-28 14:08:07.386889",
  "custom_blocks": [],
  "docstatus": 0,
@@ -198,7 +198,7 @@
    "type": "Link"
   }
  ],
- "modified": "2026-06-28 14:27:43.186640",
+ "modified": "2026-06-28 14:43:07.233829",
  "modified_by": "Administrator",
  "module": "Ba Toolkit",
  "name": "Business Analysis",

@@ -1,14 +1,14 @@
 {
+ "actions": [],
  "autoname": "BA-DOC-.YYYY.-.#####",
- "creation": "2026-06-28 00:00:00.000000",
- "custom": 0,
+ "creation": "2026-06-28 00:00:00",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "project",
   "document_title",
   "document_type",
-  "section_break_33",
+  "column_break_ukqw",
   "prepared_by",
   "version",
   "status",
@@ -17,7 +17,9 @@
   "business_need",
   "section_break_35",
   "included_stakeholders",
+  "column_break_smoe",
   "included_requirements",
+  "column_break_rsiu",
   "included_business_rules",
   "section_break_36",
   "approval_notes"
@@ -47,10 +49,6 @@
    "in_standard_filter": 1,
    "label": "Document Type",
    "options": "Business Requirements Document (BRD)\nFunctional Requirements Document (FRD)\nVision and Scope Document\nBusiness Case"
-  },
-  {
-   "fieldname": "section_break_33",
-   "fieldtype": "Section Break"
   },
   {
    "default": "__user",
@@ -122,15 +120,24 @@
    "fieldname": "approval_notes",
    "fieldtype": "Text Editor",
    "label": "Approval Notes"
+  },
+  {
+   "fieldname": "column_break_ukqw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_smoe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_rsiu",
+   "fieldtype": "Column Break"
   }
  ],
- "index_web_pages_for_search": 0,
- "is_submittable": 0,
- "istable": 0,
  "links": [],
- "modified": "2026-06-28 00:00:00.000000",
+ "modified": "2026-06-28 15:07:13.320177",
  "modified_by": "Administrator",
- "module": "BA Toolkit",
+ "module": "Ba Toolkit",
  "name": "BA Document",
  "owner": "Administrator",
  "permissions": [
@@ -148,7 +155,6 @@
   },
   {
    "create": 1,
-   "delete": 0,
    "email": 1,
    "export": 1,
    "print": 1,
@@ -171,7 +177,9 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "track_changes": 1
 }

@@ -66,23 +66,23 @@ def get_or_create_project():
 
 def create_stakeholders(project):
 	rows = [
-		dict(stakeholder_name="Noura Al-Sahli", role_title="HR Manager", organization="GI Aqua Tech",
+		dict(stakeholder_name="Noura Al-Sahli", role_title="HR Manager", organization="Alfa",
 			 stakeholder_category="Sponsor", influence_level="High", interest_level="High",
 			 attitude="Champion", communication_preference="Meetings",
 			 engagement_approach="Brief weekly during build; sign-off authority on policy rules.",
 			 notes="Owns the loan policy; wants this live before next Ramadan advance-salary season."),
-		dict(stakeholder_name="Faisal Otaibi", role_title="Payroll Officer", organization="GI Aqua Tech",
+		dict(stakeholder_name="Faisal Otaibi", role_title="Payroll Officer", organization="Alfa",
 			 stakeholder_category="Subject Matter Expert", influence_level="High", interest_level="High",
 			 attitude="Supporter", communication_preference="Workshops",
 			 engagement_approach="Deep-dive sessions on deduction rules and WPS/salary slip integration.",
 			 notes="Currently tracks loans in a shared Excel sheet — main pain point owner."),
-		dict(stakeholder_name="Lina Haddad", role_title="Finance Controller", organization="GI Aqua Tech",
+		dict(stakeholder_name="Lina Haddad", role_title="Finance Controller", organization="Alfa",
 			 stakeholder_category="Business Owner", influence_level="High", interest_level="Medium",
 			 attitude="Neutral", communication_preference="Written Reports",
 			 engagement_approach="Monthly summary; cares about outstanding balance reporting and GL impact.",
 			 notes="Wants outstanding loan balances reconcilable against the GL each month-end."),
 		dict(stakeholder_name="Yousef Al-Harbi", role_title="Site Technician (employee representative)",
-			 organization="GI Aqua Tech", stakeholder_category="End User", influence_level="Medium",
+			 organization="Alfa", stakeholder_category="End User", influence_level="Medium",
 			 interest_level="High", attitude="Supporter", communication_preference="Email",
 			 engagement_approach="Represents the typical employee applying for a loan via mobile.",
 			 notes="Wants a simple mobile-friendly request form with status tracking."),
@@ -262,7 +262,7 @@ def create_strategy_analysis(project, business_need, stakeholders):
 		"constraints": "Must integrate with existing HR/Payroll module without modifying core Salary Slip code.",
 		"assumptions": "Employee and Salary Slip doctypes are already in active use across all client sites.",
 		"change_strategy": (
-			"Phased rollout: pilot with GI Aqua Tech HR/Payroll for one pay cycle before extending to other "
+			"Phased rollout: pilot with Alfa HR/Payroll for one pay cycle before extending to other "
 			"client sites running the Storms Digital ERPNext implementation."
 		),
 		"solution_scope": "A standalone employee_loans app installed alongside HR/Payroll, not a core HR module change.",
@@ -564,7 +564,7 @@ def create_ba_document(project, stakeholders, requirements, business_need, user)
 		"version": "1.0",
 		"status": "In Review",
 		"executive_summary": (
-			"This BRD documents the requirements for replacing GI Aqua Tech's manual, spreadsheet-based "
+			"This BRD documents the requirements for replacing Alfa's manual, spreadsheet-based "
 			"employee loan process with a standalone employee_loans Frappe app, integrated with the existing "
 			"HR/Payroll module. It covers loan requests, approval, automatic payroll deduction, and final "
 			"settlement offsetting."

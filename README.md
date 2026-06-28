@@ -61,5 +61,4 @@ Then:
 ## Extending later
 
 - Add Frappe **Workflows** on `status` fields (e.g. Change Request: Submitted → Under Review → Approved → Implemented) if you want enforced approval gates rather than free-text status.
-- Add a Workspace with KPI number cards (open requirements by status, risks by rating) — natural fit for the dashboard patterns you've already built for GI Aqua Tech.
 - If this needs to go bilingual later, the doctypes are plain English labels for now (kept simple since this is an internal tool) — Frappe's Translation tool can localize labels without touching the schema.

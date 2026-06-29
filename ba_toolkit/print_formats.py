@@ -1,4 +1,4 @@
-# Copyright (c) 2026, Storms Digital
+# Copyright (c) 2026, Company
 #
 # Creates one Jinja print format per BA Toolkit main doctype, sharing a consistent
 # navy/teal style. Safe to re-run: existing print formats are skipped unless

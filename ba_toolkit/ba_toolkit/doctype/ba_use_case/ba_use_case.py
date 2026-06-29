@@ -1,4 +1,4 @@
-# Copyright (c) 2026, Storms Digital and contributors
+# Copyright (c) 2026, Company and contributors
 # For license information, please see license.txt
 
 import frappe
